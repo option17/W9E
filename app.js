@@ -69,6 +69,8 @@ while(counter < tweets.length){
     } 
     counter++;
 }
+// Here I made a while loop that sets the counter to 0 which is less than the tweet.lengths.
+// I made an if statment that says if the tweets age is greater than or equal to 18 console.log the tweet,username,and the date it was created.
 console.log(`UNDER 18 BELOW`);
 
 for(let counter = 0; counter < tweets.length; counter++){
@@ -77,3 +79,5 @@ for(let counter = 0; counter < tweets.length; counter++){
     }
 }
 
+// Here I made a for loop
+// The conditional says if the tweet age is less than 18 console.log the tweet, username, and the date it was created.
